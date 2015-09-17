@@ -6,7 +6,7 @@ use Roots\Sage\Wrapper;
 ?>
 
 <!doctype html>
-<html class="no-js" <?php language_attributes(); ?>>
+<html class="no-js" <?php language_attributes(); ?> ng-app="fobapp">
   <?php get_template_part('templates/head'); ?>
   <body <?php body_class(); ?>>
     <!--[if lt IE 9]>
