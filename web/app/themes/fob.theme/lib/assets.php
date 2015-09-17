@@ -66,6 +66,8 @@ function asset_path($filename) {
 }
 
 function assets() {
+  wp_enqueue_style('styleguide', "http://guidestyles.bretagne.bzh/thematiques/territoire.css", false, null);
+  wp_enqueue_style('styleguide', "http://guidestyles.bretagne.bzh/styles/crbicon.css", false, null);
   wp_enqueue_style('sage/css', asset_path('styles/main.css'), false, null);
 
   if (is_single() && comments_open() && get_option('thread_comments')) {
