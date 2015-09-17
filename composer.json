@@ -40,7 +40,8 @@
     "roots/soil": "^3.4",
     "wpackagist-plugin/types": "^1.8",
     "wpackagist-plugin/advanced-custom-fields": "^4.4",
-    "wpackagist-plugin/wordpress-seo": "^2.3"
+    "wpackagist-plugin/wordpress-seo": "^2.3",
+    "wpackagist-plugin/json-rest-api": "^1.2"
   },
   "extra": {
     "installer-paths": {

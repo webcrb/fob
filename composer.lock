@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2baf6c3fdd9b200f7e015c001a76c5cd",
-    "content-hash": "fdc1c22251875620b9756cc2161c4e78",
+    "hash": "614c7644a03313e3e8db2d3cf5226091",
+    "content-hash": "508f4b9843c26f2535ac4a656d5cc782",
     "packages": [
         {
             "name": "composer/installers",
@@ -294,6 +294,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
+        },
+        {
+            "name": "wpackagist-plugin/json-rest-api",
+            "version": "1.2.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/json-rest-api/",
+                "reference": "tags/1.2.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/json-rest-api.1.2.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/json-rest-api/"
         },
         {
             "name": "wpackagist-plugin/types",
