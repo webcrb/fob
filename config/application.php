@@ -72,3 +72,10 @@ define('DISALLOW_FILE_EDIT', true);
 if (!defined('ABSPATH')) {
   define('ABSPATH', $webroot_dir . '/wp/');
 }
+
+/**
+ * Theme & language
+ */
+
+define('WP_DEFAULT_THEME', 'fob.theme');
+define ('WPLANG', 'fr_FR');
