@@ -22,9 +22,15 @@
     },
     "modernizr.js": {
       "bower": ["modernizr"]
+    },
+    "angular.js": {
+      "bower": ["angular"]
+    },
+    "app.js": {
+      "files": ["scripts/application/**/*.js"]
     }
   },
   "config": {
-    "devUrl": "http://example.dev"
+    "devUrl": "http://localhost/fob/web"
   }
 }

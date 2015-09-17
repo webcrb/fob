@@ -76,5 +76,7 @@ function assets() {
 
   wp_enqueue_script('modernizr', asset_path('scripts/modernizr.js'), [], null, true);
   wp_enqueue_script('sage/js', asset_path('scripts/main.js'), ['jquery'], null, true);
+  wp_enqueue_script('angular', asset_path('scripts/angular.js'), [], null, true);
+  wp_enqueue_script('application', asset_path('scripts/app.js'), [], null, true);
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);
